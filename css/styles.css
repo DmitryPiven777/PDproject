@@ -1,0 +1,749 @@
+/* Сброс/Reset */
+h1,h2,h3,h4,h5,h6,div,body,p,ul,ol,li{
+    padding: 0;
+    margin: 0
+}
+
+ul,ol, li{
+	list-style: none
+}
+
+body {
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    background: #c7cbcf;
+}
+
+.container{
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+} 
+
+/* меню */
+.site-header .container{
+	/* background-color: #fff; */
+}
+
+.menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0;
+	background-color: #fff;
+}
+
+.menu-logo{
+	padding-left: 30px;
+}
+
+.menu-bal{
+	font-size: 1.44rem;
+	font-weight: 700;
+}
+
+.menu-bal a{
+	text-decoration: none;
+	color: #303030;
+}
+
+.menu-bal a:hover{
+	color:#d0ad7a;
+}
+
+.menu-yoga{
+	font-size: 0.83333rem;
+}
+
+.menu-yoga h4{
+	color:#d0ad7a;
+}
+
+.menu-main{
+	padding-right: 30px;
+
+}
+
+.menu-main a{
+	background: #373f48;
+	color:#fff;
+    padding: 10px 72px 10px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	letter-spacing: 8px;
+}
+
+.menu-main a:hover{
+	color:#d0ad7a;
+}
+/* меню */
+
+/* баннер */
+.site-banner .container{
+	background-color: #fff;
+}
+
+.site-banner__items{
+	display: flex;
+}
+
+.site-banner__text{
+	padding: 5px 115px 0px 25px;
+    width: 365px;
+    height: 300px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin: 70px 0 0 0px;
+}
+
+.site-banner__txt img{
+	width: 600px;
+	display: block;
+	z-index: 1;
+}
+
+.site-banner__txt h1{
+	display: block;
+	z-index: 1;
+	margin: 65px 0 70px 90px;
+	color: #373f48;
+	font-size: 36px;
+}
+
+.site-banner__txt h2{
+	display: block;
+	z-index: 1;
+	margin: 20px 0 0 90px;
+	color: #7a838c;
+	font-size: 12px;
+}
+
+.site-banner__img img{
+	width: 650px;
+    display: block;
+    z-index: 0;
+    padding-left: 374px;
+}
+/* баннер */
+
+/* контент дарк */
+.content-dark .container{
+	background: #373f48 url(../images/pattern-left.svg) top left/188px repeat-y;
+}
+
+.content-dark__txt {
+	width: 40%;
+    margin: 0 auto;
+    padding: 65px 25px 55px 155px;
+    border-left: 18px solid #ced0d2;
+}
+
+.content-dark__txt h4{
+	letter-spacing: 4px;
+	margin-bottom: 30px;
+	color: #fff;
+}	
+
+.content-dark__txt p{
+	color: #c0c1c3;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+/* контент дарк */
+
+/* пэйдж линкс */
+.page-link a{
+	color: black;
+	text-decoration: none;
+}
+
+.page-link__txt{
+	padding: 55px 50px 35px 160px;
+    width: 200px;
+    height: 80px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 83px;
+}
+
+.page-link__txt h3{
+	padding-bottom: 20px;
+}
+
+.page-link__txt p{
+	color: #7a838c;
+	font-size: 9px;
+}
+
+.page-link__txt:hover{
+	color:#d0ad7a;
+}
+
+.page-link__img-inner{
+	background-color: #373f48;
+}
+
+.page-link__img-inner img{
+	width: 600px;
+	padding: 0 0 0 200px;
+	margin: 30px 0 0 100px;
+}
+/* пэйдж линкс */
+
+/* спэйсин смол */
+.spacing-small .container{
+	background-color: #373f48;
+}
+
+.usp-list{
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.usp-list__item{
+	padding: 40px;
+}
+
+.usp-list__link{
+	text-align: center;
+	color: #fff;
+}
+
+.usp-list__link:hover{
+	color:#d0ad7a;
+}
+
+.usp-list__icon-outer img{
+	width: 40px;
+}
+/* спэйсин смол */
+
+/* футер */
+.site-footer .container{
+	background-color: #373f48;
+}
+
+.site-footer__inner{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-bottom: 10px;
+}
+
+.site-footer__top{
+	padding: 30px;
+}
+
+.site-footer__bottom{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	border-top: 8px solid #f5f6f6;
+	padding-bottom: 10px;
+}
+
+.site-footer__links a{
+	text-decoration: none;
+	color: #303030;
+}
+
+.footer__bottom-left{
+	padding-left: 30px;
+}
+
+.footer__bottom-right{
+	padding-right: 30px;
+}
+
+.footer__bottom-right a{
+	text-decoration: none;
+	color: #303030;
+}
+
+.site-footer__disclaimer{
+	width: 65%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.site-footer__disclaimer p{
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+}
+/* футер */
+
+/* MENU-html */
+/* menu__site */
+.menu-dark{
+	background-color: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0;
+	position: relative;
+	z-index: 1;
+}
+
+.menu-dark-logo{
+	padding-left: 30px;
+	font-size: 1.44rem;
+	font-weight: 700;
+}
+
+.menu-dark-logo a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.menu-dark-logo a:hover{
+	color:#d0ad7a;
+}
+
+.menu-dark-main{
+	padding-right: 50px;
+}
+
+.menu-dark-main a{
+	background: #fff;
+	color:#303030;
+    padding: 10px 72px 10px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	letter-spacing: 8px;
+}
+
+.menu-dark-main a:hover{
+	color:#d0ad7a;
+}
+/* menu__site */
+
+/* site-menu__inner */
+.site-menu__inner{
+	display: flex;
+	margin-top: -107px;
+	position: relative;
+	z-index: 0;
+}
+
+.site-menu__left img{
+	height: 754px;
+}
+
+.site-menu__right {
+    width: 60%;
+	height: 754px;
+	background-color: #313840;
+}
+
+.site-menu__links{
+	margin: 265px 0 0 155px;
+}
+
+.menu-item{
+	padding-bottom: 18px;
+}
+
+.menu-item a{
+	color:#fff;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 2;
+}
+
+.menu-item a:hover{
+	color:#d0ad7a;
+}
+/* site-menu__inner */
+/* MENU-html */
+
+/* PORTFOLIO-html */
+/* портфолио */
+.portfolio__items{
+	background-color: #fff;
+}
+
+.portfolio__items h1{
+	font-size: 36px;
+    letter-spacing: 8px;
+	padding: 30px 0 100px 200px;
+	font-weight: 700;
+}
+/* портфолио */
+
+/* квартиры */
+.property-preview-outer .container{
+	background: #f5f6f6;
+}
+
+.flat-item_L{
+	display: flex;
+	padding-left: 100px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.flat-item_L a{
+	text-decoration: none;
+}
+
+.flat-item_R{
+	display: flex;;
+	padding-left: 200px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.flat-item_R a{
+	text-decoration: none;
+}
+
+.flat__txt{
+	width: 125px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.flat__txt p{
+	font-size: 10px;
+}
+
+.property-preview__ico{
+	width: 20px;
+	display: flex;
+	padding-bottom: 10px;
+}
+
+.property-preview__ico img{
+	padding-right: 10px;
+}
+
+.property-preview__ico p{
+	margin-right: 5px;
+}
+
+.js-object-fit{
+	width: 550px;
+	height: 250px;
+	position: relative;
+	z-index: 0;
+	padding-top: 50px; 
+}
+
+.property-preview__img-txt{
+	margin-top: -80px;
+    margin-left: 30px;
+	position: relative;
+	z-index: 1;
+}
+
+.property-preview__img-txt h3{
+	font-size: 10px;
+	color: #fff;
+}
+
+.property-preview__img-txt h2{
+	font-size: 22px;
+	color: #fff;
+	padding-top: 25px;
+}
+
+.btn-flat{
+	padding: 10px 15px;
+    letter-spacing: 3px;
+	background: #ca9d81;
+}
+
+.btn-flat:hover{
+	background: #373f48;
+}
+
+.flat__txt-lower {
+	padding-bottom: 25px;
+}
+
+.flat__txt-lower a{
+	font-size: 7px;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+
+.property-preview__specs{
+	padding-top: 80px;
+    padding-bottom: 9px;
+}
+/* квартиры */
+/* PORTFOLIO-html */
+
+/* INVESTORS-html */
+.menu-main-inv{
+	padding-right: 30px;
+}
+
+.menu-main-inv a{
+	background: #373f48;
+	color:#fff;
+    padding: 10px 72px 10px 80px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	letter-spacing: 8px;
+}
+
+.menu-main-inv a:hover{
+	color:#d0ad7a;
+	border: 2px solid #d0ad7a;
+}
+
+.investors .container{
+	background-color: #373f48;
+}
+
+.menu-investors{
+	background-color: #373f48;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0;
+}
+
+.menu-investors a{
+	color: #fff;
+}
+
+.investors__items{
+	background-color: #373f48;
+}
+
+.investors__items h1{
+	font-size: 36px;
+    letter-spacing: 8px;
+	padding: 30px 0 50px 200px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.investors__text{
+	padding-left: 550px;
+	padding-bottom: 50px;
+	width: 25%;
+	color: #7a838c;
+}
+
+.usp-list__link-inv{
+	text-align: center;
+	color: #fff;
+}
+
+.usp-list__link-inv:hover{
+	color:#d0ad7a;
+}
+
+.usp-list__link-inv h6{
+	font-size: 12px;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.usp-list__link-inv p{
+	font-size: 9px;
+}
+
+.usp-list__inv{
+	padding-bottom: 5px;
+}
+
+.usp-list__inv img{
+	width: 40px;
+}
+/* INVESTORS-html */
+
+/* PANDORA-html */
+.pandora-big .container{
+	background: url(../images/Pandora-Homes.jpg); 
+	background-size: cover;
+}
+
+.menu-pandora{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0;
+}
+
+.menu-main-pand{
+	padding-right: 30px;
+}
+
+.menu-main-pand a{
+    padding: 10px 72px 10px 80px;
+	border: 2px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	letter-spacing: 8px;
+	color: black;
+}
+
+.menu-main-pand a:hover{
+	color: #d0ad7a;
+	border: 2px solid #d0ad7a;
+}
+
+.pandora-homes__items h1{
+	font-size: 36px;
+    letter-spacing: 8px;
+	padding-top: 35px;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.pandora-homes__text{
+	padding-bottom: 135px;
+	text-align: center;
+}
+
+.pandora-content .container{
+	background-color: #fff;
+}
+
+.pandora_item{
+	padding-top: 50px;
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.pandora_item img{
+	width: 500px;
+}
+
+.pandora_item p{
+	color: #7a838c;
+	font-size: 12px;
+	line-height: 2;
+	padding-bottom: 20px;
+}
+
+.pandora_item h5{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.pand_items_img{
+	display: flex;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.pand_items_img img{
+	width: 243px;
+}
+
+.pand_item_img{
+	padding-right: 15px;
+}
+
+.btn-pandora{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.btn-pandora a{
+	background: #373f48;
+	color: #fff;
+    padding: 10px 116px 10px 124px;
+	border-radius: 5px;
+	text-decoration: none;
+	letter-spacing: 8px;
+}
+
+.btn-pandora a:hover{
+	background-color: #d0ad7a;
+}
+/* PANDORA-html */
+
+/* INVESTOR-html */
+.investor-big .container{
+	background: url(../images/Angel-Investor.jpg); 
+	background-size: cover;
+}
+
+.investor-homes__items h1{
+	font-size: 36px;
+    letter-spacing: 8px;
+	padding-top: 35px;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #fff;
+}
+
+.investor-homes__text{
+	padding-bottom: 135px;
+	text-align: center;
+}
+
+.investor-homes__text p{
+	color: #fff;
+}
+
+.menu-main-invest{
+	padding-right: 30px;
+}
+
+.menu-main-invest a{
+	color:#fff;
+    padding: 10px 72px 10px 80px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	letter-spacing: 8px;
+}
+
+.menu-main-invest a:hover{
+	color:#d0ad7a;
+	border: 2px solid #d0ad7a;
+}
+
+.pandora_item li {
+    color: #7a838c;
+    font-size: 12px;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+/* INVESTOR-html */
+
+
+.actpartner-big .container{
+	background: url(../images/Joint-Equity-Partner.jpg); 
+	background-size: cover;
+}
+
+.sovmpredpr-big .container{
+	background: url(../images/Joint-Venture-Partnerships.jpg); 
+	background-size: cover;
+}
+
+.sozdportf-big .container{
+	background: url(../images/Portfolio-Building.jpg); 
+	background-size: cover;
+}
